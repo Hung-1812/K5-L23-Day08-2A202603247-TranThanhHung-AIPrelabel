@@ -50,17 +50,6 @@
   2. Kiểm tra mọi box, kể cả box confidence cao; dùng đủ bốn bước checklist trên 100% ảnh.
   3. Sau review, làm QC ngẫu nhiên và ghi lỗi theo cả ảnh lẫn đối tượng; nếu có lỗi thì sửa, chạy lại QC trước khi quyết định phát hành.
 
-## 5. Mask SAM cho 3 vật (Part 5)
-
-| Ảnh | SAM (phiên bản) | Số click | Mask gồm người lái / hàng hoá? | Lỗi quan sát | File trong `masks/` |
-|---|---|---:|---|---|---|
-| `img_004` | SAM 2.1 (`sam2.1_b.pt`) | 3 | Không thấy rõ người lái hoặc hàng hoá trong vùng mask | Cần rà mép bánh, gầm xe và bóng đổ để tránh lấy thừa | `tuktuk_img004_sam2.jpg` |
-| `img_013` | SAM 2.1 (`sam2.1_b.pt`) | 3 | Còn lẫn một phần người lái/nội thất; không thấy hàng hoá rõ | Mask xe khá đầy đủ nhưng còn nhiễu, phân mảnh quanh người lái; một click âm chưa tách sạch người và xe | `tuktuk_img013_sam2.jpg` |
-| `img_013` | SAM 1 (MobileSAM) | 3 | Người lái phần lớn nằm ngoài mask; không thấy hàng hoá rõ | Trong ảnh thử này mask liền mạch hơn và ít lẫn người lái hơn SAM 2.1; vẫn cần rà vùng tiếp giáp | `tuktuk_img013_sam1.jpg` |
-| `img_017` | SAM 2.1 (`sam2.1_b.pt`) | 3 | Không thấy rõ người lái hoặc hàng hoá trong vùng mask | Cần rà mép bánh/gầm và vùng sát xe phía sau để tránh ăn sang nền/vật khác | `tuktuk_img017_sam2.jpg` |
-
-- Đối chiếu guideline mục 4.2: quy tắc nào giúp, quy tắc nào thiếu? <<>>
-- *(Tuỳ chọn)* Interactor SAM trong CVAT: làm được / không (lỗi gì, đã thử gì); khác gì offline: <<>>
 
 ## 5. Mask SAM cho 3 vật (Part 5)
 
