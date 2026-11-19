@@ -1,0 +1,6 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,khong, Hùng,"Không thấy lỗi rõ ở các box; xe ba bánh và người được tách riêng."
+img_006.jpg,,khong, Hùng,"Không thấy lỗi rõ ở các box xe máy, xe đạp và người."
+img_014.jpg,,khong, Hùng,"Không thấy lỗi rõ ở các box người và xe máy."
+img_031.jpg,368,sai_vi_tri_kich_thuoc, Hùng,"Box bicycle bị thiếu phần khay hàng/trái cây nhìn thấy ở phía trước bên trái."
+img_035.jpg,,khong, Hùng,"Không thấy lỗi rõ ở các box người và phương tiện."
